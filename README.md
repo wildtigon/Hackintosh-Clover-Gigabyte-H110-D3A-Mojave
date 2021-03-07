@@ -26,11 +26,13 @@
 ## IMPORTANT
   If you are using Celeron/Pentium for your hackintosh. Please use discrete graphic card and add those lines to this config
 
-  |<key>KernelAndKextPatches</key>
+  ```
+  <key>KernelAndKextPatches</key>
   <dict>
     <key>FakeCPUID</key>
     <string>0x0306A0</string>
-  </dict> |
+  </dict> 
+  ```
 
 
 ## How to use
